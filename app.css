@@ -1,0 +1,41 @@
+:root {
+  --primary-color: #1f2937;
+  --secondary-color: #6ee7b7;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.heading {
+  text-align: center;
+}
+
+.container {
+  width: 40%;
+  margin: auto;
+}
+
+input,
+label {
+  display: block;
+  margin: 0.3rem;
+  width: 100%;
+  padding: 1rem;
+}
+
+#check-button {
+  margin: 1rem auto;
+  display: block;
+  padding: 0.5rem;
+  background: transparent;
+  color: var(--secondary-color);
+  border: var(--secondary-color) 1px solid;
+}
+
+#paragraph {
+  font-size: larger;
+  font-weight: 800;
+  text-align: center;
+}

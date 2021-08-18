@@ -24,4 +24,15 @@ function calculateSum(dob) {
   return sum;
 }
 
-checkNumberButton.addEventListener("click", checkBirthdateIsLucky);
+checkNumberButton.addEventListener("click", checkInput);
+
+function checkInput() {
+  console.log(dateOfBirth.value, luckyNumber.value);
+  if (dateOfBirth.value === "") {
+    paragraph.innerText = "Please enter Date of Birth༼ つ ◕_◕ ༽つ";
+  } else if (luckyNumber.value === "") {
+    paragraph.innerText = "Please enter Lucky Number✍(◔◡◔)";
+  } else {
+    checkBirthdateIsLucky();
+  }
+}
