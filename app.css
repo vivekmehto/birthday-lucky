@@ -40,21 +40,10 @@ label {
   font-weight: 800;
   text-align: center;
 }
-
-@media screen and (max-width: 768px) {
-  .container {
-    width: 60%;
-  }
-
-  button {
-    width: 40%;
-  }
-}
-
 .footer {
   position: fixed;
   bottom: 0;
-  left: 10%;
+  left: 40%;
   padding: 2rem 1rem;
   color: white;
   text-align: center;
@@ -90,4 +79,20 @@ label {
 
 .footer ul {
   padding-inline-start: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  input {
+    width: 60%;
+  }
+  #check-btn {
+    width: 80%;
+  }
+  .footer {
+    left: 5%;
+  }
 }
